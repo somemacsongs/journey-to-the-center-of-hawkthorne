@@ -1,0 +1,21 @@
+.indexVideo{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#indexImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 30%;
+}
+
+body{
+    background-color: rgb(92, 154, 209);
+}
