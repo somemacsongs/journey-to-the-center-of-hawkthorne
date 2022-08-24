@@ -216,7 +216,7 @@ const questions = [
 ]
 
 const scorePoints = [1,2,3];
-const maxQuestions = 10;    //mudar aqui
+const maxQuestions = 20;    
 
 startGame = () => {
     questionCounter = 0;
@@ -227,7 +227,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
-        localStorage.setItem('Your score is:', score);
+        localStorage.setItem('finalScore', score);
         return window.location.assign("./end.html");
     }
     questionCounter++;
@@ -275,22 +275,9 @@ incrementScore = num => {
     scoreText.innerText = score;
 }
 
-// displayEnd = () => {
-// finalScore.innerText = `Your final score is: ${score}`;
-// if(score<=15){
-//     finalText.innerText = "You are a Level 1 - Human Being";
-// } else if(score>15 && score<=25){
-//     finalText.innerText = "You are a Level 2 - Delta Cube";
-// }else if(score>25 && score<=35){
-//     finalText.innerText = "You are a Level 3 - Ass Crack Bandit";
-// }else if(score>35 && score<=45){
-//     finalText.innerText = "You are a Level 4 - Chicken Fingers Master";
-// }else if(score>45 && score<=60){
-//     finalText.innerText = "You are a Level 5 - Laser Lotus";
-// }
-// }
+
 
 startGame();
-// displayEnd();
+
 
 
