@@ -1,0 +1,63 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 70%%;
+    border-radius: 4px;
+    background-color: aliceblue;
+    min-width: 80rem;
+    font-size: 2rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0;
+    box-shadow: 0 0.2rem 1.3rem 0 rgb(193, 199, 206);
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+
+
+
+.choice-text{
+    padding: 2rem;
+    width:100%;
+}
+
+.correct{
+    background: rgb(68, 190, 119);
+}
+
+.incorrect{
+    background: red;
+}
+
+/* quiz header */
+
+#quiz-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-header-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.quiz-header-text{
+    text-align: center;
+}
+
+#progress-bar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid pink;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow:hidden;
+}
+
+#progress-bar-full{
+    height: 100%;
+    background: pink;
+    width: 0%;
+}

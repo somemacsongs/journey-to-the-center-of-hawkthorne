@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+h1 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 10rem;
+}
+.instruction-container{
+    width: 120vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .indexVideo{
     display: flex;
     margin: auto;
@@ -5,17 +40,69 @@
     padding: 10px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #indexImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 15px;
     width: 30%;
 }
 
 body{
     background-color: rgb(92, 154, 209);
+}
+
+.button {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    background-color: rgb(244, 246, 245);
+    border-radius: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1.3rem 0 green;
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+
+#start-button{
+    background-color: rgb(68, 190, 119);
+    margin-top: 20px;
+}
+
+#home-button{
+    background-color: rgb(250, 156, 56);
+    margin-top: 9px;
+}
+
+#home-button:hover{
+    box-shadow: 0 0.2rem 1.3rem 0 rgb(149, 110, 9);
+}
+
+#final-score{
+    display: block;
+    font-size: 2rem;
+    background: rgb(3, 105, 160);
+    padding: 0.7rem;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+#final-text {
+    color: aliceblue;
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+
 }

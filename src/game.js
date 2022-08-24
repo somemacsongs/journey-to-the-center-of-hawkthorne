@@ -1,3 +1,17 @@
+const question = document.querySelector('#question');
+const choices = Array.from(document.querySelectorAll('.choice-text'));
+const progressText = document.querySelector('#progress-text');
+const scoreText = document.querySelector('#score');
+const progressBarFull = document.querySelector('#progress-bar-full');
+const finalScore = document.querySelector("#final-score");
+const finalText = document.querySelector("#final-text");
+
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
+
 const questions = [
     {
         question: "What's Bitta's last name?",
@@ -200,3 +214,83 @@ const questions = [
         stage: 1
     }
 ]
+
+const scorePoints = [1,2,3];
+const maxQuestions = 10;    //mudar aqui
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestion ();
+}
+
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter >= maxQuestions){
+        localStorage.setItem('Your score is:', score);
+        return window.location.assign("./end.html");
+    }
+    questionCounter++;
+    progressText.innerText = `${questionCounter} of ${maxQuestions}`;
+    progressBarFull.style.width = `${(questionCounter/maxQuestions) * 100}%`;
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
+
+    choices.forEach((choice) => {
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['op'+number];
+    });
+
+    availableQuestions.splice(questionsIndex, 1);
+
+    acceptingAnswers = true;
+}
+
+choices.forEach((choice) => {
+    choice.addEventListener("click", e =>{
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset["number"];
+
+        let classToApply = selectedAnswer == currentQuestion.correct ? 'correct' : 'incorrect';
+
+        if(classToApply === 'correct') {
+            incrementScore(scorePoints[currentQuestion.stage-1]);
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply);
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
+        }, 700)
+    })
+})
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+}
+
+// displayEnd = () => {
+// finalScore.innerText = `Your final score is: ${score}`;
+// if(score<=15){
+//     finalText.innerText = "You are a Level 1 - Human Being";
+// } else if(score>15 && score<=25){
+//     finalText.innerText = "You are a Level 2 - Delta Cube";
+// }else if(score>25 && score<=35){
+//     finalText.innerText = "You are a Level 3 - Ass Crack Bandit";
+// }else if(score>35 && score<=45){
+//     finalText.innerText = "You are a Level 4 - Chicken Fingers Master";
+// }else if(score>45 && score<=60){
+//     finalText.innerText = "You are a Level 5 - Laser Lotus";
+// }
+// }
+
+startGame();
+// displayEnd();
+
+

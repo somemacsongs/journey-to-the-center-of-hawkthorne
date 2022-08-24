@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey to the Center of Hawthorne</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/game.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz" class="flex-center flex-column">
+            <div id="quiz-header">
+                <div class="quiz-header-item">
+                    <p id="progress-text" class="quiz-header-prefix">
+                        Question
+                    </p>
+                    <div id="progress-bar">
+                        <div id="progress-bar-full"></div>
+                    </div>
+                </div>
+                <div class="quiz-header-item">
+                    <p class="quiz-header-prefix">
+                        Score
+                    </p>
+                    <h1 class="quiz-header-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">What is the answer?</h1>
+            <div class="choice-container">
+                
+                <p class="choice-text" data-number="1"></p>
+            </div>
+            <div class="choice-container">
+                
+                <p class="choice-text" data-number="2"></p>
+            </div>
+            <div class="choice-container">
+                
+                <p class="choice-text" data-number="3"></p>
+            </div>
+            <div class="choice-container">
+               
+                <p class="choice-text" data-number="4"></p>
+            </div>
+            <div class="choice-container">
+                
+                <p class="choice-text" data-number="5"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./src/game.js"></script>
+</body>
+</html>
