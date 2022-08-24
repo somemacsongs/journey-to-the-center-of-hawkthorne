@@ -53,7 +53,7 @@ h1 {
 }
 
 body{
-    background-color: rgb(92, 154, 209);
+    background-color: rgb(97, 163, 220);
 }
 
 .button {
@@ -82,7 +82,7 @@ body{
 
 #home-button{
     background-color: rgb(250, 156, 56);
-    margin-top: 9px;
+    margin-top: none;
 }
 
 #home-button:hover{
@@ -105,4 +105,9 @@ body{
     margin-bottom: 30px;
     text-align: center;
 
+}
+
+#signature{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

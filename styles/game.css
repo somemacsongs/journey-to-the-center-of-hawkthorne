@@ -1,7 +1,7 @@
 .choice-container{
     display: flex;
     margin-bottom: 0.8rem;
-    width: 70%%;
+    width: 70%;
     border-radius: 4px;
     background-color: aliceblue;
     min-width: 80rem;
@@ -17,7 +17,6 @@
 }
 
 
-
 .choice-text{
     padding: 2rem;
     width:100%;
@@ -31,11 +30,17 @@
     background: red;
 }
 
-/* quiz header */
 
 #quiz-header{
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    margin-top:2rem;
+    margin-bottom: none;
+}
+
+.quiz-header-item{
+    height:11rem;
 }
 
 .quiz-header-prefix{
@@ -44,6 +49,8 @@
 }
 
 .quiz-header-text{
+    margin-top: 30px;
+    margin-bottom: none;
     text-align: center;
 }
 
@@ -60,4 +67,10 @@
     height: 100%;
     background: pink;
     width: 0%;
+}
+
+#question{
+    margin-top: none;
+    margin-bottom: 4rem;
+    width: 90%
 }
