@@ -13,7 +13,7 @@ Every correct answer will grant you:
  - 2 points for stage 2
  - 3 points for stage 3
 
-All stages will have 10 questions each. At the end, your score will be revised and you will classified in 5 different levels of proficiency:
+All stages will have 10 questions each. At the end, your score will be revised and you will be classified in 5 different levels of proficiency:
 
  - Level 1 - Human Being (0-15 points)
  - Level 2 - Delta Cube (16-25 points)
@@ -21,4 +21,4 @@ All stages will have 10 questions each. At the end, your score will be revised a
  - Level 4 - Chicken Fingers Master (36-45 points)
  - Level 5 - Laser Lotus (46-60 points)
 
-Wanna see how mean this Dean can bean? Play [here](https://somemacsongs.github.io/journey-to-the-center-of-hawkthorne/)
+Wanna see how mean this Dean can bean? Play [here](https://somemacsongs.github.io/journey-to-the-center-of-hawkthorne/).
