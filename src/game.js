@@ -5,6 +5,7 @@ const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progress-bar-full');
 const finalScore = document.querySelector("#final-score");
 const finalText = document.querySelector("#final-text");
+const stage = document.querySelector("#stage");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -274,6 +275,176 @@ const questions = [
         op5: "202",
         correct: 2,
         stage: 1
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: "",
+        op1: "",
+        op2: "",
+        op3: "",
+        op4: "",
+        op5: "",
+        correct: 3,
+        stage: 3
     }
 ]
 
@@ -301,6 +472,7 @@ getNewQuestion = () => {
     progressBarFull.style.width = `${(questionCounter/maxQuestions) * 100}%`;
 
     if (questionCounter<=10){
+        stage.innerText = 1;
         const questionsIndex = Math.floor(Math.random() * stageOne.length);
         currentQuestion = stageOne[questionsIndex];
         question.innerText = currentQuestion.question;
@@ -314,6 +486,7 @@ getNewQuestion = () => {
         acceptingAnswers = true;
     }
     if (questionCounter<=20 && questionCounter>10){
+        stage.innerText = 2;
         const questionsIndex = Math.floor(Math.random() * stageTwo.length);
         currentQuestion = stageTwo[questionsIndex];
         question.innerText = currentQuestion.question;
@@ -327,6 +500,7 @@ getNewQuestion = () => {
         acceptingAnswers = true;
     }
     if (questionCounter<=30 && questionCounter>20){
+        stage.innerText = 3;
         const questionsIndex = Math.floor(Math.random() * stageThree.length);
         currentQuestion = stageThree[questionsIndex];
         question.innerText = currentQuestion.question;
