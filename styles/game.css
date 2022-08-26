@@ -10,7 +10,6 @@
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0;
     box-shadow: 0 0.2rem 1.3rem 0 rgb(129, 128, 128);
     transition: transform 150ms;
     transform: scale(1.02);
@@ -88,6 +87,11 @@
         background-color: aliceblue;
         font-size: 0.7rem;
         min-width: 20rem;
+    }
+    .choice-container:hover{
+        box-shadow: none;
+        transition: none;
+        transform: scale(1);
     }
     .choice-text{
         padding: 1.4rem;

@@ -3,7 +3,7 @@
 ![Journey to the Center of Hawkthorne](https://www.giantbomb.com/a/uploads/scale_medium/10/101014/2352574-logo.png)
 
 Welcome, Community fans!
-This is a game designed to mesure your in-depth knowledge of my (and possibly yours too) favorite TV show, Community! (created by Dan Harmon)
+This is a game designed to measure your in-depth knowledge of my (and possibly yours too) favorite TV show, Community! (created by Dan Harmon)
 
 The game has three stages, each more difficult than the previous one. First, you will be tested on your general knowledge of the show, this one should be easy! Secondly, we will see if you really know what you're talking about... you can expect questions about the plots and sub-plots of your favorite episodes. Last but not least, on stage 3, we want to see how good your reference game is. It's meta! Abed gets it. 
 
@@ -23,4 +23,4 @@ All stages will have 10 questions each. At the end, your score will be revised a
 
 Wanna see how mean this Dean can bean? Play [here](https://somemacsongs.github.io/journey-to-the-center-of-hawkthorne/).
 
-Wanna know more? Checkout my presentation [here](https://docs.google.com/presentation/d/18I_ONyLEz_Gnln4wZhQs3gEyoVLkO3-n-DiMiduMXAQ/edit?usp=sharing)
+Wanna know more? Check out my presentation [here](https://docs.google.com/presentation/d/18I_ONyLEz_Gnln4wZhQs3gEyoVLkO3-n-DiMiduMXAQ/edit?usp=sharing).

@@ -230,7 +230,7 @@ const questions = [
         question: "What event helps Briita decide she wants to major in Psychology?",
         op1: "Britta helps Jeff reconnect with his dad",
         op2: "Briita helps Pierce with his pill addiction",
-        op3: "Britta helps Abed go to a happy place in his mind?",
+        op3: "Britta helps Abed go to a happy place in his mind",
         op4: "Britta helps Abed find a new favorite TV show",
         op5: "Britta helps Annie say the word 'Penis'",
         correct: 4,
@@ -423,7 +423,7 @@ const questions = [
         op3: `"can see the color Blurble"`,
         op4: `"become vapor"`,
         op5: `"become light"`,
-        correct: 3,
+        correct: 2,
         stage: 3
     },
     {
