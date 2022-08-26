@@ -119,4 +119,11 @@
         border-radius: 50px;
         overflow:hidden;
     }
+    .correct{
+        background: rgb(68, 190, 119);
+    }
+    
+    .incorrect{
+        background: rgb(255, 67, 67);
+    }
 }

@@ -22,3 +22,5 @@ All stages will have 10 questions each. At the end, your score will be revised a
  - Level 5 - Laser Lotus (46-60 points)
 
 Wanna see how mean this Dean can bean? Play [here](https://somemacsongs.github.io/journey-to-the-center-of-hawkthorne/).
+
+Wanna know more? Checkout my presentation [here](https://docs.google.com/presentation/d/18I_ONyLEz_Gnln4wZhQs3gEyoVLkO3-n-DiMiduMXAQ/edit?usp=sharing)
