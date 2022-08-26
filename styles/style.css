@@ -167,6 +167,22 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+    #indexImg{
+        width: 60vw;
+    }
+    #indexVideo{
+        width: 80vw;
+    }
+    .instructions{
+        width: 90vw; 
+        font-size: 0.6rem;
+    }
+    .instruction-text{
+        line-height: 2.7;
+    }
+    #paragraph{
+        text-indent: 0.8rem;
+    }
     .button {
         font-size: 0.8rem;
         padding: 1.2rem 0;
@@ -209,6 +225,10 @@ body{
 
     #signature{
         font-size: 0.6rem;
+    }
+
+    #end-video{
+        width: 80vw;
     }
 
     #final-score{
