@@ -185,8 +185,8 @@ body{
     }
     .button {
         font-size: 0.8rem;
-        padding: 1.2rem 0;
-        width: 10rem;
+        padding: 1.6rem 0.6rem;
+        width: 12rem;
         text-align: center;
         text-decoration: none;
         margin-bottom: 1rem;

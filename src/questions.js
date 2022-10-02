@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "What's Bitta's last name?",
+        question: "What's Britta's last name?",
         op1: "Perry",
         op2: "Bennet",
         op3: "Barry",
@@ -120,7 +120,7 @@ const questions = [
         stage: 1
     },
     {
-        question: "Who are the winners of the first and sacond Paintball game, respectively?",
+        question: "Who are the winners of the first and second paintball game, respectively?",
         op1: "Jeff and Jeff",
         op2: "Britta and Pierce",
         op3: "Jeff and Shirley",
@@ -198,5 +198,235 @@ const questions = [
         op5: "Doctor Who",
         correct: 2,
         stage: 1
+    },
+    {
+        question: "How did Chang become famous?",
+        op1: "He ate a person",
+        op2: "He made a commercial where he says 'Ham, Girl!'",
+        op3: "He was the first asian keytarist to win a Grammy ",
+        op4: "He starred in the new Play-Doh movie as the color Blue",
+        op5: "He was the first person to have Changnesia",
+        correct: 2,
+        stage: 2
+    },
+    {
+        question: "What event helps Briita decide she wants to major in Psychology?",
+        op1: "Britta helps Jeff reconnect with his dad",
+        op2: "Briita helps Pierce with his pill addiction",
+        op3: "Britta helps Abed go to a happy place in his mind",
+        op4: "Britta helps Abed find a new favorite TV show",
+        op5: "Britta helps Annie say the word 'Penis'",
+        correct: 4,
+        stage: 2
+    },
+    {
+        question: "Which class was canceled by Frankie when she arrived at Greendale?",
+        op1: "Can I Fry That?",
+        op2: "History of Ice Cream",
+        op3: "Conspiracy Theories",
+        op4: "Nicolas Cage: Good or Bad?",
+        op5: "Ladders",
+        correct: 5,
+        stage: 2
+    },
+    {
+        question: "How does the Save Greendale Committee save Greendale from being bought?",
+        op1: "They find a secret treasure",
+        op2: "Pierce lends them money",
+        op3: "They find the deeds of the property",
+        op4: "They plan an elaborate heist",
+        op5: "They replace the Dean for a 'Doppledeaner'",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "When do Jeff and Annie have their first kiss?",
+        op1: "Troy and Abed's new appartment party",
+        op2: "Last night of school of the first year",
+        op3: "The debate 'Man is good vs. Man is evil'",
+        op4: "Last episode",
+        op5: "Battle of model UN's",
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "What is Troy/Abed/Annie's apartment number?",
+        op1: "203",
+        op2: "303",
+        op3: "102",
+        op4: "101",
+        op5: "202",
+        correct: 2,
+        stage: 1
+    },
+    {
+        question: "What does Abed say happened when he visited the Cougar Twon set?",
+        op1: "He talks to Courtney Cox",
+        op2: "He pees himself",
+        op3: "He has a seizure",
+        op4: "He poops his pants",
+        op5: "He meets someone named Chad",
+        correct: 4,
+        stage: 2
+    },
+    {
+        question: "What is the prize of the second paintball game?",
+        op1: "Priority registration",
+        op2: "200 thousand dollars cash",
+        op3: "1 year supply of ice cream",
+        op4: "Yard margs at Skeeper's",
+        op5: "100 thousand dollars cash",
+        correct: 5,
+        stage: 2
+    },
+    {
+        question: "What is Greendale's motto?",
+        op1: `"Keep a loose grip"`,
+        op2: `"E Pluribus Anus"`,
+        op3: `"You're already accepted"`,
+        op4: `"You're home"`,
+        op5: `"Greendale is the way it goes"`,
+        correct: 3,
+        stage: 2
+    },
+    {
+        question: "Why can't Shirley go to the hospital to deliver her baby?",
+        op1: "The food fair became a race kurfuffle",
+        op2: "There's too much traffic",
+        op3: "Her water breaks too soon",
+        op4: "Abed helps deliver the baby",
+        op5: "Britta helps deliver the baby",
+        correct: 1,
+        stage: 2
+    },
+    {
+        question: "Why do they roll a die on the six different timelines episode?",
+        op1: "To decide who starts playing the game",
+        op2: "To decide who goes get the pizza",
+        op3: "To decide who should order food",
+        op4: "To decide who stays with Todd as a lab partner",
+        op5: "To decide who is gonna spend the day with Pierce",
+        correct: 2,
+        stage: 2
+    },
+    {
+        question: "How does Pierce die?",
+        op1: "He dies from dehydration",
+        op2: "He has cancer",
+        op3: "He is murdered",
+        op4: "He has a heart attack",
+        op5: "He electrocutes himself",
+        correct: 1,
+        stage: 2
+    },
+    {
+        question: "How did Shirley meet Jeff?",
+        op1: "They met at Greendale",
+        op2: "Jeff defends the stripper André cheated on Shirley with",
+        op3: "They met at AA's",
+        op4: "They met playing foosball",
+        op5: "They met at Spanish 101",
+        correct: 4,
+        stage: 2
+    },
+    {
+        question: `"I agree with brown ____"`,
+        op1: `"Anthony Michael Hall"`,
+        op2: `"John Michael Higgins"`,
+        op3: `"Jamie Lee Curtis"`,
+        op4: `"Owen Wilson"`,
+        op5: `"Betty White"`,
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: `"You know what the commercial says: ____"`,
+        op1: `"Five dollar footlong"`,
+        op2: `"Keep your damn hand off my Let's"`,
+        op3: `"Pass the bucket"`,
+        op4: `"I'm loving it"`,
+        op5: `"Betcha can't eat just one"`,
+        correct: 2,
+        stage: 3
+    },
+    {
+        question: `[singing]"I'm baby boomer santa, I'm ____"`,
+        op1: `"a gift to the world!"`,
+        op2: `"a living god!"`,
+        op3: `"a modern day messiah!"`,
+        op4: `"the real rock and roll!"`,
+        op5: `"an american pearl!"`,
+        correct: 5,
+        stage: 3
+    },
+    {
+        question: `"Abed makes the ____ and the decisions"`,
+        op1: `"chicken"`,
+        op2: `"fingers"`,
+        op3: `"falafel"`,
+        op4: `"special drink"`,
+        op5: `"zucchini zircles"`,
+        correct: 2,
+        stage: 3
+    },
+    {
+        question: `"Maybe it's because when I put on these jeans my ass looks like ____"`,
+        op1: `"a baby pumpkin"`,
+        op2: `"a small apple"`,
+        op3: `"an ant's ass"`,
+        op4: `"a baboon's butt"`,
+        op5: `"a rat's ass"`,
+        correct: 1,
+        stage: 3
+    },
+    {
+        question: `"My friendship with Abed is ____"`,
+        op1: `"a TV show"`,
+        op2: `"like the season 1 of Lost"`,
+        op3: `"like most relationships"`,
+        op4: `"awesome"`,
+        op5: `"a giant cookie"`,
+        correct: 5,
+        stage: 3
+    },
+    {
+        question: `"No way, drugs are like special ____, they give you a buzz"`,
+        op1: `"drink"`,
+        op2: `"candy"`,
+        op3: `"honey"`,
+        op4: `"medicine"`,
+        op5: `"plants"`,
+        correct: 3,
+        stage: 3
+    },
+    {
+        question: `"When Buddha comes back, we all ____"`,
+        op1: `"will be free"`,
+        op2: `"take liquid form"`,
+        op3: `"can see the color Blurble"`,
+        op4: `"become vapor"`,
+        op5: `"become light"`,
+        correct: 2,
+        stage: 3
+    },
+    {
+        question: `"And that solves the matter of the ____"`,
+        op1: `"giant hand"`,
+        op2: `"frisbee ceiling"`,
+        op3: `"chicken fingers"`,
+        op4: `"glee club"`,
+        op5: `"guerrilla marketing"`,
+        correct: 1,
+        stage: 3
+    },
+    {
+        question: `"I'll ____ on it"`,
+        op1: `"work"`,
+        op2: `"sleep"`,
+        op3: `"think"`,
+        op4: `"sit"`,
+        op5: `"count"`,
+        correct: 4,
+        stage: 3
     }
 ]
