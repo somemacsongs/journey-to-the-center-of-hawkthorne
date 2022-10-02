@@ -210,9 +210,9 @@ const questions = [
         stage: 2
     },
     {
-        question: "What event helps Briita decide she wants to major in Psychology?",
+        question: "What event helps Britta decide she wants to major in Psychology?",
         op1: "Britta helps Jeff reconnect with his dad",
-        op2: "Briita helps Pierce with his pill addiction",
+        op2: "Britta helps Pierce with his pill addiction",
         op3: "Britta helps Abed go to a happy place in his mind",
         op4: "Britta helps Abed find a new favorite TV show",
         op5: "Britta helps Annie say the word 'Penis'",
@@ -400,7 +400,7 @@ const questions = [
         stage: 3
     },
     {
-        question: `"When Buddha comes back, we all ____"`,
+        question: `"When Buddha returns, we all ____"`,
         op1: `"will be free"`,
         op2: `"take liquid form"`,
         op3: `"can see the color Blurble"`,
